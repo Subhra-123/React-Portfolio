@@ -1,0 +1,37 @@
+.about{
+    padding-bottom: 48px;
+}
+.about-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about-info{
+    font-size: 24px;
+}
+.info-name{
+    color: blue;
+    font-size: 32px;
+}
+.picture{
+    height: 420px;
+}
+
+@media only screen and (max-width:720px){
+    .about-top{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .picture{
+        height: 280px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
